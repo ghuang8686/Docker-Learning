@@ -1,0 +1,31 @@
+docker version # check the version of the docker
+docker info
+
+docker run # https://docs.docker.com/engine/reference/commandline/run/
+
+docker ps # Show the list of container
+
+docker run --interactive --tty ubuntu bash # Type the following command to create and run a Ubuntu image
+
+A Docker image is a lightweight, standalone, and executable software package that includes everything needed to run a piece of software, 
+including the code, runtime environment, libraries, and system tools. It is built based on the Docker containerization technology.
+
+Docker images are created from a set of instructions called a Dockerfile, which specifies the configuration and dependencies of the desired software environment. 
+The Dockerfile contains a series of commands that are executed sequentially to build the image.
+
+docker start -a -i (container ID) # Start an existing container
+
+docker image options:
+-------------------------------------------------------------------------------
+pull
+push
+inspect
+import
+stop
+start
+--------------------------------------------------------------------------------
+
+docker cheating sheet
+------------------------------
+https://groupe-sii.github.io/cheat-sheets/docker/index.html
+------------------------------

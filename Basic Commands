@@ -15,16 +15,6 @@ The Dockerfile contains a series of commands that are executed sequentially to b
 
 docker start -a -i (container ID) # Start an existing container
 
-docker image options:
--------------------------------------------------------------------------------
-pull
-push
-inspect
-import
-stop
-start
---------------------------------------------------------------------------------
-
 docker cheating sheet
 ------------------------------
 https://groupe-sii.github.io/cheat-sheets/docker/index.html
